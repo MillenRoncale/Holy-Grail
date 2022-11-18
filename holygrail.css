@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+header,
+footer {
+    height: 15vh;
+    background-color: antiquewhite;
+    font-size: 30px;
+}
+main {
+    height: 70vh;
+    display: flex;
+}
+aside {
+    width: 20%;
+    padding: 15px;
+    background-color: darksalmon;
+    font-size: 30px;
+}
+nav {
+    width: 20%;
+    padding: 15px;
+    background-color: darkkhaki ;
+    font-size: 30px;
+}
+article {
+    width: 60%;
+    padding: 15px;
+    background-color: lightpink;
+    margin-top: 30px;
+    margin-right: 45px;
+    margin-bottom: 100px;
+    margin-left: 45px;
+}
+body {
+    margin: 0;
+}
+.container {
+    display: flex;
+    column-gap: 40px;
+}
+.flex-item.left {
+    width: 60%;
+}
+.subj label {
+    flex: 1;
+}
+.subj input {
+    flex: 3;
+}
+.flex-item.right {
+    width: 40%;
+}
+.submit {
+    text-align: center;
+    margin-top: 20px;
+}
+.subj {
+    display: flex;
+    margin-bottom: 10px;
+}
+.subj label {
+    width: 0%;
+    padding: 5px;
+    margin: 8px;
+}
+
+
+input[type="text"] {
+    width: 40%;
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+input[type="month"] {
+    width: 100%;
+    padding: 5px;
+    margin: 15px;
+    box-sizing: border-box;
+    flex: 2
+}
+select[name="select"] {
+    width: 60%;
+    padding: 5px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+input[type="radio"] {
+    width: 5%;
+    padding: 12px;
+    margin-top: 20px;
+}
+input[type="checkbox"] {
+    width: 5%;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+input[type="submit"] {
+    border: 0;
+    padding: 10px;
+    background-color: gray;
+}
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    height: 100%;
+}
+
